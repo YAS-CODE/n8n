@@ -10,10 +10,6 @@ services:
     environment:
       - POSTGRES_DB=n8n
       - POSTGRES_PASSWORD=password
-      - N8N_HOST=n8n-production-571c.up.railway.app
-      - N8N_PORT=443
-      - N8N_PROTOCOL=https
-      - NODE_ENV=production
       - WEBHOOK_URL=https://n8n-production-571c.up.railway.app
 
   n8n:
